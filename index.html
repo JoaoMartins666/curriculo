@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Analise e desenvolvimento</title>
 
-
 </head>
 
 <body>
@@ -23,40 +22,130 @@
     <section id="sobre">
         <h2>Sobre Mim</h2>
         <img src="img/eu.png" alt="imagem foto de perfil" height="280" width="235" title=" João Paulo Martins" 
-         < article>
-        <p>
-            Sou Joao Paulo , analista e desenvolvidor de sofwares jr
-        </p>
-        </article>
+               article>  
+                 <p>
+                    Sou Joao Paulo , analista e desenvolvidor de sofwares jr
+                 </p>
+             </article>
         <aside>
             <h3>Habilidades</h3>
             <ul>
                 <li>HTML</li>
                 <li>CSS</li>
                 <li>JavaScript</li>
-                
+
             </ul>
 
         </aside>
     </section>
+
+         <section id="habilidades" >
+        
+             <h2>Habilidades e tecnologias</h2>
+
+                 <table> 
+
+                    <thead>
+                         <tr>
+                             <th>Tecnologia</th>
+                             <th>Nível</th>
+                             <th>Descrição</th>
+                        </tr>
+
+
+
+                     </thead>
+  
+                    <tbody>
+                        <tr>
+                            <td>HTML</td>
+                            <td>Iniciante</td>
+                            <td>Conhecimento básico de estruturação de páginas web</td>
+                        </tr>
+                        <tr>
+                            <td>CSS</td>
+                            <td>Intermediário</td>
+                            <td>Experiência com flexbox, grid e animações CSS</td>
+                        </tr>
+                        <tr>
+                            <td>JavaScript</td>
+                            <td>Básico</td>
+                            <td>Desenvolvimento de scripts do lado do cliente para interações. </td>
+                        </tr>
+
+                     </tbody>
+                     
+
+                </table>
+        </section>
+
+
+    <section id="experiencia">
+        <h2>Experiência</h2>
+        <article>
+            <h3>Analista e Desenvolvedor de Software Jr</h3>
+            <p>
+                Atualmente trabalho como analista e desenvolvedor de software jr , onde tenho a oportunidade de aplicar meus conhecimentos em HTML, CSS e JavaScript para criar soluções eficientes e inovadoras. Estou sempre buscando aprimorar minhas habilidades e contribuir para o sucesso dos projetos em que estou envolvido.
+            </p>
+        </article>
+    </section>
+
     <section id="projetos">
 
         <h2>Projetos</h2>
+
         <article>
             <h3>Portifólio</h3>
-            <p>Este é o meu primeiro site concluido , estudando front-end . </p>
- </article>
+
+            <p>
+                Este é o meu primeiro site concluido , estudando front-end . 
+            </p>
+        </article>
 
     </section>
     <footer>
         <p> Joao Paulo. Todos os direitos reservados.</p>
-    <h2>Contato</h2>
-    <p>Precisa de um desenvolvedor / analista? Entre em contato!</p>
-    <address> Email: <a href="mailto:joaomartins666@outlook.com">joaomartins666@outlook.com</a> <br>
-        Telefone:<a href="tel:(47) 996872899">(47) 996872899</a>
-    </address>
-
     </footer>
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Precisa de um desenvolvedor / analista? Entre em contato!</p>
+
+        <form action="">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br>
+
+            <label for="email">emai:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone"><br>
+
+            <label for="assunto">Assunto:</label>
+            <select id="assunto" name="assunto">
+                <option value="orçamento">Orçamento</option>
+                <option value="duvida">Dúvida</option>
+                <option value="outro">Outro</option>
+            </select>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" cols="30" rows="10" required></textarea><br>
+
+            <input type="checkbox" id="inscricao" name="inscricao">
+            <label for="inscricao">Deseja se inscrever para receber novidades ?</label> <br>
+            <input type="submit" value="Enviar mensagem">
+
+        </form>
+
+
+
+
+
+    </section>
+
+
+
+
+     </footer>
+
 
 </body>
 
